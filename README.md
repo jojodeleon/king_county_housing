@@ -10,7 +10,7 @@ In analyzing the King County Housing data, I aim to give recommendations and ins
 
 ## Data
 
-The information on properties in King County came from a dataset provided by kaggle.com. Originally, the dataset contained 21,597 rows, representing individual properties, and 21 columns, representing features about each property.
+The information on properties in King County came from a dataset provided by kaggle.com. Originally, the dataset contained 21,597 rows, representing individual properties, and 21 columns, representing features about each property. The final model contained 10,036 rows with 80 columns although of those columns 10 were distinct.
 
 ## Methodology
 
@@ -59,9 +59,26 @@ Of the 62 zipcodes in the model, all but one of the zipcodes increase home value
 
 ![Screenshot from 2021-07-23 12-51-21](https://user-images.githubusercontent.com/75818628/126822011-e9c61a22-355d-4d84-a452-b3c3c3654699.png)
 
+## Recommendations
 
+I recommend investors to concentrate on the top ten zipcodes as they offer the maximum rate of return. Whether or not the property has other favorable features associated with it, to have the starting point for the property to be in one of the most desirable locations should guarantee a positive return on their investment. I further advocate for investors to focus on homes with 1-2 levels, a miniumum of 2 bedrooms, and multiple bathrooms. Moreover, purchasing properties with more square footage of the lot will maximize profits. 
 
+## Future Work
 
+Research into why the areas in these zipcodes are so desirable would be wise. Exploring questions like:
+>  Are there better schools in these areas?<br>
+What is the crime rate in these areas?<br>
+Is there an abundance of parks and green space in these areas?<br>
+What is the turnover for home sales in these areas?<br>
+Do they offer easy access to medical care?<br>
+Is a full range of public services offered?<br>
+Are they walkable areas?<br>
+Are all the essential (grocery stores, etc.) nearby?<br>
+Investigating the answers to these questions would be a possible segway to find the next "it" neighborhood in which to invest!!
+
+To further hone the current model used for this analysis, running another model with any outliers removed and comparing to the current model would be informative.
+
+Lastly, further exploration into whether the feature sqft_living interacts with any other of the features that pertain to the structure of the home would reveal further insights for smart investments. 
 
 
 
