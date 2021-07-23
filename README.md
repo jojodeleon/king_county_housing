@@ -43,8 +43,8 @@ The majority of features have a positive on the price of the home. For features 
 When all other features are zero, a one foot increment in the square footage of the lot corresponds to an increase in $17.63 of property value.
 
 Of the 62 zipcodes in the model, all but one of the zipcodes increase home values. This suggests that King County in general is a very desirable county in the area in which to invest in property.  This finding is significant so I focus on the top ten zipcodes for a maximum return on investment. However, I would also note that there are 24 zipcodes whose return on investment factor is at least two.<br>
->  The following zipcodes have the greatest rate of return:
->  zip_98107: \\$3.0465 increase per \\$1 increase in price   
+>  The following zipcodes have the greatest rate of return:<br>
+> > zip_98107: \\$3.0465 increase per \\$1 increase in price   
    zip_98102: \\$2.9990 increase per \\$1 increase in price   
    zip_98105: \\$2.9930 increase per \\$1 increase in price  
    zip_98112: \\$2.8805 increase per \\$1 increase in price  
@@ -55,7 +55,6 @@ Of the 62 zipcodes in the model, all but one of the zipcodes increase home value
    zip_98005: \\$2.5670 increase per \\$1 increase in price  
    zip_98116: \\$2.5335 increase per \\$1 increase in price  
 
-photo of top ten zip codes
 ![Screenshot from 2021-07-23 12-51-21](https://user-images.githubusercontent.com/75818628/126822011-e9c61a22-355d-4d84-a452-b3c3c3654699.png)
 
 
