@@ -1,3 +1,5 @@
+
+![thom-milkovic-skUTVJi8-jc-unsplash](https://user-images.githubusercontent.com/75818628/126841008-99044eb9-2dbf-43e7-8a4d-35c3d40bf48e.jpg)
 # King County Housing
 
 Linear Regression Model 
@@ -24,7 +26,7 @@ The information on properties in King County came from a dataset provided by kag
 ![Screenshot from 2021-07-23 12-38-51](https://user-images.githubusercontent.com/75818628/126821405-f1065c0c-462a-498f-8f25-469b3745f521.png)
 1. The R-squared value of 0.679 has been consistent since the fifth iteration and varied from this in the 3rd and 4th iterations by a difference of merely 0.001. As R squared measures the strength of the relationship between our model and the target variable, price, this indicates that 67.9% of the variance in the price is explained by the predictor variables collectively.
 2. All p-values of the remaining predictors are significant and have a value much less than the threshold alpha of 0.05. The intercept's p-value remained insignificant. However, this should not be seen as problematic.  The intercept is the value of the price when all the features are zero which in this case would mean there existed no property i.e. this is a nonsensical case that is far outside the observed data.
-3. The final skewness evaluated for this model is -0.106 suggesting that the distribution is approximately symmetric and therefore indicative of a normal distribution.<br><br> At 4.429 this model's kurtosis demonstrates a "skinny" leptokurtic distribution, a distribution with longer and fatter tails where the peak is higher and sharper than the peak of a normal distribution. This indicates the distribution has heavy tails and that there are outliers.
+3. The final skewness evaluated for this model is -0.106 suggesting that the distribution is approximately symmetric and therefore indicative of a normal distribution. At 4.429 this model's kurtosis demonstrates a "skinny" leptokurtic distribution, a distribution with longer and fatter tails where the peak is higher and sharper than the peak of a normal distribution. This indicates the distribution has heavy tails and that there are outliers.
 4. The RSME has remained consistent and acceptable starting with the 3rd iteration. This demonstrates that the model is a good fit signifying that the observed data points are close to the model's predicted values and therefore this fitted model should predict well. 
 5. All cross validation tests have calculated a large, negative MSE indicating a robust model. 
 6. The residual distribution appears normalish and meets the normality assumption. A qqplot confirmed the homoskedastic assumption as the variance of the residuals is constant or, in other words, the residuals do not vary much as the price changes as seen by the overall good fit of the data points.  
