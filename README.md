@@ -19,6 +19,24 @@ The information on properties in King County came from a dataset provided by kag
 4. Between iterations, the residuals were examined visually through distribution histograms, qqplots, and scatter plots. Furthermore, the kurtosis and skewness statistics were inspected to evaluate normality and homoskedasticity. 
 5. In the latter iterations, p-values were thoroughly examined against the set alpha threshold of 0.05. Features whose p-values remained insignificant and unchanging through iterations were expunged. Additionally, multiple cross validation checks were run to assess vaildity of the model's fit.
 
-##Findings
+## Findings
+
+photo of ols regression results of last model
+![Screenshot from 2021-07-23 12-38-51](https://user-images.githubusercontent.com/75818628/126821405-f1065c0c-462a-498f-8f25-469b3745f521.png)
+
+photo of top ten zip codes
+![Screenshot from 2021-07-23 12-51-21](https://user-images.githubusercontent.com/75818628/126822011-e9c61a22-355d-4d84-a452-b3c3c3654699.png)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
